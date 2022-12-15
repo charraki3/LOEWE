@@ -140,10 +140,10 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -163,6 +163,18 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Brand</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>
@@ -172,7 +184,7 @@
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>false</sorted>
+                <sorted>true</sorted>
                 <value>
                     <fullName>Generic</fullName>
                     <default>false</default>
@@ -195,7 +207,7 @@
         <fullName>Market__c</fullName>
         <externalId>false</externalId>
         <label>Market</label>
-        <required>false</required>
+        <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -213,7 +225,7 @@
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>false</sorted>
+                <sorted>true</sorted>
                 <value>
                     <fullName>Assigned</fullName>
                     <default>false</default>
@@ -252,8 +264,9 @@
     <fields>
         <fullName>Campaign_name__c</fullName>
         <externalId>false</externalId>
-        <label>Campaign name</label>
-        <length>255</length>
+        <inlineHelpText>Offers / Promotions in Commerce Cloud</inlineHelpText>
+        <label>Campaign Name</label>
+        <length>40</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -262,7 +275,7 @@
     <fields>
         <fullName>Assignment_date__c</fullName>
         <externalId>false</externalId>
-        <label>Assignment date</label>
+        <label>Assignment Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
@@ -270,7 +283,7 @@
     <fields>
         <fullName>Validity_end_date__c</fullName>
         <externalId>false</externalId>
-        <label>Validity end date</label>
+        <label>Validity End Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>
@@ -278,21 +291,13 @@
     <fields>
         <fullName>Validity_start_date__c</fullName>
         <externalId>false</externalId>
-        <label>Validity start date</label>
+        <label>Validity Start Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
     <listViews>
         <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>Market__c</columns>
-        <columns>Campaign_name__c</columns>
-        <columns>Type__c</columns>
-        <columns>Status__c</columns>
-        <columns>CREATED_DATE</columns>
-        <columns>Validity_start_date__c</columns>
-        <columns>Validity_end_date__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
