@@ -1,249 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>AU</fullName>
+        <fullName>AR</fullName>
         <default>false</default>
-        <label>Australia (AU)</label>
-    </customValue>
-    <customValue>
-        <fullName>AT</fullName>
-        <default>false</default>
-        <label>Austria (AT)</label>
-    </customValue>
-    <customValue>
-        <fullName>BH</fullName>
-        <default>false</default>
-        <label>Bahrain (BH)</label>
+        <label>Argentina - AR</label>
     </customValue>
     <customValue>
         <fullName>BE</fullName>
         <default>false</default>
-        <label>Belgium (BE)</label>
-    </customValue>
-    <customValue>
-        <fullName>BR</fullName>
-        <default>false</default>
-        <label>Brazil (BR)</label>
+        <label>Belgique - BE</label>
     </customValue>
     <customValue>
         <fullName>CA</fullName>
         <default>false</default>
-        <label>Canada (CA)</label>
+        <label>Canada - CA</label>
     </customValue>
     <customValue>
-        <fullName>DK</fullName>
+        <fullName>CN</fullName>
         <default>false</default>
-        <label>Denmark (DK)</label>
+        <label>China - CH</label>
     </customValue>
     <customValue>
-        <fullName>FI</fullName>
+        <fullName>ES</fullName>
         <default>false</default>
-        <label>Finland (FI)</label>
+        <label>Espagne - ES</label>
     </customValue>
     <customValue>
         <fullName>FR</fullName>
         <default>false</default>
-        <label>France (FR)</label>
-    </customValue>
-    <customValue>
-        <fullName>DE</fullName>
-        <default>false</default>
-        <label>Germany (DE)</label>
-    </customValue>
-    <customValue>
-        <fullName>GR</fullName>
-        <default>false</default>
-        <label>Greece (GR)</label>
-    </customValue>
-    <customValue>
-        <fullName>HK</fullName>
-        <default>false</default>
-        <label>Hong Kong (HK)</label>
-    </customValue>
-    <customValue>
-        <fullName>IN</fullName>
-        <default>false</default>
-        <label>India (IN)</label>
-    </customValue>
-    <customValue>
-        <fullName>ID</fullName>
-        <default>false</default>
-        <label>Indonesia (ID)</label>
+        <label>France - FR</label>
     </customValue>
     <customValue>
         <fullName>INT</fullName>
         <default>false</default>
-        <label>International (INT)</label>
-    </customValue>
-    <customValue>
-        <fullName>IE</fullName>
-        <default>false</default>
-        <label>Ireland (IE)</label>
-    </customValue>
-    <customValue>
-        <fullName>IM</fullName>
-        <default>false</default>
-        <label>Isle of Man (IM)</label>
+        <label>International - INT</label>
     </customValue>
     <customValue>
         <fullName>IT</fullName>
         <default>false</default>
-        <label>Italy (IT)</label>
+        <label>Italy - IT</label>
     </customValue>
     <customValue>
         <fullName>JP</fullName>
         <default>false</default>
-        <label>Japan (JP)</label>
+        <label>Japan - JP</label>
     </customValue>
     <customValue>
-        <fullName>JE</fullName>
+        <fullName>NL</fullName>
         <default>false</default>
-        <label>Jersey (JE)</label>
+        <label>Netherland - NL</label>
+    </customValue>
+    <customValue>
+        <fullName>RU</fullName>
+        <default>false</default>
+        <label>Russia - RU</label>
+    </customValue>
+    <customValue>
+        <fullName>GB</fullName>
+        <default>false</default>
+        <label>Great Britain - GB</label>
+    </customValue>
+    <customValue>
+        <fullName>US</fullName>
+        <default>false</default>
+        <label>United States - US</label>
+    </customValue>
+    <customValue>
+        <fullName>SA</fullName>
+        <default>false</default>
+        <label>Saudi Arabia - SA</label>
+    </customValue>
+    <customValue>
+        <fullName>QA</fullName>
+        <default>false</default>
+        <label>Qatar - QA</label>
+    </customValue>
+    <customValue>
+        <fullName>AE</fullName>
+        <default>false</default>
+        <label>United Arab Emirates - AE</label>
     </customValue>
     <customValue>
         <fullName>LU</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Luxembourg (LU)</label>
     </customValue>
     <customValue>
         <fullName>MY</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Malaysia (MY)</label>
     </customValue>
     <customValue>
         <fullName>MC</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Monaco (MC)</label>
-    </customValue>
-    <customValue>
-        <fullName>NL</fullName>
-        <default>false</default>
-        <label>Netherlands (NL)</label>
     </customValue>
     <customValue>
         <fullName>NZ</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>New Zealand (NZ)</label>
     </customValue>
     <customValue>
         <fullName>NO</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Norway (NO)</label>
-    </customValue>
-    <customValue>
-        <fullName>CN</fullName>
-        <default>false</default>
-        <label>People&apos;s Republic of China (CN)</label>
     </customValue>
     <customValue>
         <fullName>PH</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Philippines (PH)</label>
     </customValue>
     <customValue>
         <fullName>PL</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Poland (PL)</label>
     </customValue>
     <customValue>
         <fullName>PT</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Portugal (PT)</label>
-    </customValue>
-    <customValue>
-        <fullName>QA</fullName>
-        <default>false</default>
-        <label>Qatar (QA)</label>
     </customValue>
     <customValue>
         <fullName>RO</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Romania (RO)</label>
-    </customValue>
-    <customValue>
-        <fullName>RU</fullName>
-        <default>false</default>
-        <label>Russia (RU)</label>
-    </customValue>
-    <customValue>
-        <fullName>SA</fullName>
-        <default>false</default>
-        <label>Saudi Arabia (SA)</label>
     </customValue>
     <customValue>
         <fullName>SG</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Singapore (SG)</label>
     </customValue>
     <customValue>
         <fullName>ZA</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>South Africa (ZA)</label>
     </customValue>
     <customValue>
         <fullName>SAM</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>South America (SAM)</label>
     </customValue>
     <customValue>
         <fullName>KR</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>South Korea (KR)</label>
-    </customValue>
-    <customValue>
-        <fullName>ES</fullName>
-        <default>false</default>
-        <label>Spain (ES)</label>
     </customValue>
     <customValue>
         <fullName>SE</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Sweden (SE)</label>
     </customValue>
     <customValue>
         <fullName>CH</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Switzerland (CH)</label>
     </customValue>
     <customValue>
         <fullName>TW</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Taiwan, Republic of China (TW)</label>
     </customValue>
     <customValue>
         <fullName>TH</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Thailand (TH)</label>
-    </customValue>
-    <customValue>
-        <fullName>AE</fullName>
-        <default>false</default>
-        <label>United Arab Emirates (AE)</label>
-    </customValue>
-    <customValue>
-        <fullName>GB</fullName>
-        <default>false</default>
-        <label>United Kingdom (GB)</label>
-    </customValue>
-    <customValue>
-        <fullName>US</fullName>
-        <default>false</default>
-        <label>United States (US)</label>
     </customValue>
     <customValue>
         <fullName>VN</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Vietnam (VN)</label>
     </customValue>
     <customValue>
-        <fullName>MX</fullName>
+        <fullName>VT</fullName>
         <default>false</default>
-        <label>Mexico (MX)</label>
-    </customValue>
-    <customValue>
-        <fullName>WW</fullName>
-        <default>false</default>
-        <label>WW</label>
+        <isActive>false</isActive>
+        <label>VT</label>
     </customValue>
     <customValue>
         <fullName>BG</fullName>
@@ -252,11 +201,107 @@
         <label>BG</label>
     </customValue>
     <customValue>
-        <fullName>VT</fullName>
+        <fullName>JE</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>VT</label>
+        <label>Jersey (JE)</label>
+    </customValue>
+    <customValue>
+        <fullName>IM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Isle of Man (IM)</label>
+    </customValue>
+    <customValue>
+        <fullName>IE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ireland (IE)</label>
+    </customValue>
+    <customValue>
+        <fullName>ID</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Indonesia (ID)</label>
+    </customValue>
+    <customValue>
+        <fullName>IN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>India (IN)</label>
+    </customValue>
+    <customValue>
+        <fullName>HK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Hong Kong (HK)</label>
+    </customValue>
+    <customValue>
+        <fullName>GR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Greece (GR)</label>
+    </customValue>
+    <customValue>
+        <fullName>FI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finland (FI)</label>
+    </customValue>
+    <customValue>
+        <fullName>DK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Denmark (DK)</label>
+    </customValue>
+    <customValue>
+        <fullName>BR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Brazil (BR)</label>
+    </customValue>
+    <customValue>
+        <fullName>BH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bahrain (BH)</label>
+    </customValue>
+    <customValue>
+        <fullName>AT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Austria (AT)</label>
+    </customValue>
+    <customValue>
+        <fullName>AU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Australia (AU)</label>
+    </customValue>
+    <customValue>
+        <fullName>SP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SP</label>
+    </customValue>
+    <customValue>
+        <fullName>MX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MX</label>
+    </customValue>
+    <customValue>
+        <fullName>1zqjej&apos;&quot;(){}&lt;x&gt;:/1zqjej;9</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>1zqjej&apos;&quot;(){}&lt;x&gt;:/1zqjej;9</label>
+    </customValue>
+    <customValue>
+        <fullName>DE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Germany (DE)</label>
     </customValue>
     <masterLabel>Market</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>
